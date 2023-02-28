@@ -1,1 +1,4 @@
 # typescript-quiz
+In this example we have defined an array of Question objects that includes the questions, possible answers, and correct answers. The runQuiz() function then loops through each question and asks the user to select an answer using Inquirer. If the user's answer matches the correct answer, the score is incremented by 1. At the end of the quiz, the user's score is displayed.
+
+You can customize the questions and answers to include daily general knowledge questions, and modify the score variable to include points for each correct answer. You can also customize the message displayed for correct and incorrect answers.
